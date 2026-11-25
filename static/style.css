@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container {
+    text-align: center;
+}
+
+.menu-container h1 {
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 32px;
+}
+
+.botones {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.boton {
+    width: 155px;
+    height: 155px;
+    display: flex;
+    justify-conent: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ejercicio1 {
+    background-color: #b000b5;
+}
+
+.ejercicio2 {
+    background-color: #75c900;
+}
+
+.boton:hover {
+    opacity: 0.85;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 850px;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-container  h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.form-container label {
+    display: block;
+    font-size: 20px;
+    margin: 15px 0 8px;
+    color: #555;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.font-container button {
+    margin-top: 25px;
+    padding: 14px 28px;
+    background-color: #0866d9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #004da8;
+}
+
+.resultado {
+    margin-top: 25px;
+    text-aling: left;
+    font-size: 19px;
+    color: #333;
+}
+
+.resultado p {
+    margin-bottom: 15px;
+}
